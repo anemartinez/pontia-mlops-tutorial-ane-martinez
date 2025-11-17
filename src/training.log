@@ -1,0 +1,772 @@
+2025-11-17 21:56:21,274 [INFO] System info: macOS-26.0-arm64-arm-64bit
+2025-11-17 21:56:21,275 [INFO] Loading training and tests datasets...
+2025-11-17 21:56:21,336 [INFO] Train shape: (32561, 15), Test shape: (16280, 15)
+2025-11-17 21:56:21,347 [INFO] Missing values (train): 0, (tests): 0
+2025-11-17 21:56:21,364 [INFO] Preprocessing and encoding features...
+2025-11-17 21:56:21,421 [INFO] Scaling features...
+2025-11-17 21:56:21,427 [INFO] Feature columns: ['age', 'workclass', 'fnlwgt', 'education', 'education-num', 'marital-status', 'occupation', 'relationship', 'race', 'sex', 'capital-gain', 'capital-loss', 'hours-per-week', 'native-country']
+2025-11-17 21:56:21,427 [INFO] X_train shape: (32561, 14), X_test shape: (16280, 14)
+2025-11-17 21:56:25,645 [INFO] Training RandomForestClassifier...
+2025-11-17 21:56:25,649 [INFO] Model parameters: {'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': 42, 'verbose': 0, 'warm_start': False}
+2025-11-17 21:56:34,072 [INFO] No environment configuration found.
+2025-11-17 21:56:34,073 [INFO] ManagedIdentityCredential will use IMDS
+2025-11-17 21:56:34,074 [INFO] Request URL: 'http://169.254.169.254/metadata/identity/oauth2/token?api-version=REDACTED&resource=REDACTED'
+Request method: 'GET'
+Request headers:
+    'User-Agent': 'azsdk-python-identity/1.25.1 Python/3.11.11 (macOS-26.0-arm64-arm-64bit)'
+No body was attached to the request
+2025-11-17 21:56:35,149 [WARNING] DefaultAzureCredential failed to retrieve a token from the included credentials.
+Attempted credentials:
+	EnvironmentCredential: EnvironmentCredential authentication unavailable. Environment variables are not fully configured.
+Visit https://aka.ms/azsdk/python/identity/environmentcredential/troubleshoot to troubleshoot this issue.
+	WorkloadIdentityCredential: WorkloadIdentityCredential authentication unavailable. The workload options are not fully configured. See the troubleshooting guide for more information: https://aka.ms/azsdk/python/identity/workloadidentitycredential/troubleshoot. Missing required arguments: 'tenant_id', 'client_id', 'token_file_path'.
+	ManagedIdentityCredential: ManagedIdentityCredential authentication unavailable, no response from the IMDS endpoint.
+	SharedTokenCacheCredential: SharedTokenCacheCredential authentication unavailable. No accounts were found in the cache.
+	VisualStudioCodeCredential: VisualStudioCodeCredential requires the 'azure-identity-broker' package to be installed. You must also ensure you have the Azure Resources extension installed and have signed in to Azure via Visual Studio Code.
+	AzureCliCredential: Azure CLI not found on path
+	AzurePowerShellCredential: PowerShell is not installed
+	AzureDeveloperCliCredential: Azure Developer CLI could not be found. Please visit https://aka.ms/azure-dev for installation instructions and then,once installed, authenticate to your Azure account using 'azd auth login'.
+	BrokerCredential: InteractiveBrowserBrokerCredential unavailable. The 'azure-identity-broker' package is required to use brokered authentication.
+To mitigate this issue, please refer to the troubleshooting guidelines here at https://aka.ms/azsdk/python/identity/defaultazurecredential/troubleshoot.
+2025-11-17 21:56:53,925 [INFO] Request URL: 'http://169.254.169.254/metadata/identity/oauth2/token?api-version=REDACTED&resource=REDACTED'
+Request method: 'GET'
+Request headers:
+    'User-Agent': 'azsdk-python-identity/1.25.1 Python/3.11.11 (macOS-26.0-arm64-arm-64bit)'
+No body was attached to the request
+2025-11-17 21:56:54,969 [WARNING] DefaultAzureCredential failed to retrieve a token from the included credentials.
+Attempted credentials:
+	EnvironmentCredential: EnvironmentCredential authentication unavailable. Environment variables are not fully configured.
+Visit https://aka.ms/azsdk/python/identity/environmentcredential/troubleshoot to troubleshoot this issue.
+	WorkloadIdentityCredential: WorkloadIdentityCredential authentication unavailable. The workload options are not fully configured. See the troubleshooting guide for more information: https://aka.ms/azsdk/python/identity/workloadidentitycredential/troubleshoot. Missing required arguments: 'tenant_id', 'client_id', 'token_file_path'.
+	ManagedIdentityCredential: ManagedIdentityCredential authentication unavailable, no response from the IMDS endpoint.
+	SharedTokenCacheCredential: SharedTokenCacheCredential authentication unavailable. No accounts were found in the cache.
+	VisualStudioCodeCredential: VisualStudioCodeCredential requires the 'azure-identity-broker' package to be installed. You must also ensure you have the Azure Resources extension installed and have signed in to Azure via Visual Studio Code.
+	AzureCliCredential: Azure CLI not found on path
+	AzurePowerShellCredential: PowerShell is not installed
+	AzureDeveloperCliCredential: Azure Developer CLI could not be found. Please visit https://aka.ms/azure-dev for installation instructions and then,once installed, authenticate to your Azure account using 'azd auth login'.
+	BrokerCredential: InteractiveBrowserBrokerCredential unavailable. The 'azure-identity-broker' package is required to use brokered authentication.
+To mitigate this issue, please refer to the troubleshooting guidelines here at https://aka.ms/azsdk/python/identity/defaultazurecredential/troubleshoot.
+2025-11-17 21:57:17,579 [INFO] Request URL: 'http://169.254.169.254/metadata/identity/oauth2/token?api-version=REDACTED&resource=REDACTED'
+Request method: 'GET'
+Request headers:
+    'User-Agent': 'azsdk-python-identity/1.25.1 Python/3.11.11 (macOS-26.0-arm64-arm-64bit)'
+No body was attached to the request
+2025-11-17 21:57:18,625 [WARNING] DefaultAzureCredential failed to retrieve a token from the included credentials.
+Attempted credentials:
+	EnvironmentCredential: EnvironmentCredential authentication unavailable. Environment variables are not fully configured.
+Visit https://aka.ms/azsdk/python/identity/environmentcredential/troubleshoot to troubleshoot this issue.
+	WorkloadIdentityCredential: WorkloadIdentityCredential authentication unavailable. The workload options are not fully configured. See the troubleshooting guide for more information: https://aka.ms/azsdk/python/identity/workloadidentitycredential/troubleshoot. Missing required arguments: 'tenant_id', 'client_id', 'token_file_path'.
+	ManagedIdentityCredential: ManagedIdentityCredential authentication unavailable, no response from the IMDS endpoint.
+	SharedTokenCacheCredential: SharedTokenCacheCredential authentication unavailable. No accounts were found in the cache.
+	VisualStudioCodeCredential: VisualStudioCodeCredential requires the 'azure-identity-broker' package to be installed. You must also ensure you have the Azure Resources extension installed and have signed in to Azure via Visual Studio Code.
+	AzureCliCredential: Azure CLI not found on path
+	AzurePowerShellCredential: PowerShell is not installed
+	AzureDeveloperCliCredential: Azure Developer CLI could not be found. Please visit https://aka.ms/azure-dev for installation instructions and then,once installed, authenticate to your Azure account using 'azd auth login'.
+	BrokerCredential: InteractiveBrowserBrokerCredential unavailable. The 'azure-identity-broker' package is required to use brokered authentication.
+To mitigate this issue, please refer to the troubleshooting guidelines here at https://aka.ms/azsdk/python/identity/defaultazurecredential/troubleshoot.
+2025-11-17 21:58:02,404 [INFO] Request URL: 'http://169.254.169.254/metadata/identity/oauth2/token?api-version=REDACTED&resource=REDACTED'
+Request method: 'GET'
+Request headers:
+    'User-Agent': 'azsdk-python-identity/1.25.1 Python/3.11.11 (macOS-26.0-arm64-arm-64bit)'
+No body was attached to the request
+2025-11-17 21:58:03,449 [WARNING] DefaultAzureCredential failed to retrieve a token from the included credentials.
+Attempted credentials:
+	EnvironmentCredential: EnvironmentCredential authentication unavailable. Environment variables are not fully configured.
+Visit https://aka.ms/azsdk/python/identity/environmentcredential/troubleshoot to troubleshoot this issue.
+	WorkloadIdentityCredential: WorkloadIdentityCredential authentication unavailable. The workload options are not fully configured. See the troubleshooting guide for more information: https://aka.ms/azsdk/python/identity/workloadidentitycredential/troubleshoot. Missing required arguments: 'tenant_id', 'client_id', 'token_file_path'.
+	ManagedIdentityCredential: ManagedIdentityCredential authentication unavailable, no response from the IMDS endpoint.
+	SharedTokenCacheCredential: SharedTokenCacheCredential authentication unavailable. No accounts were found in the cache.
+	VisualStudioCodeCredential: VisualStudioCodeCredential requires the 'azure-identity-broker' package to be installed. You must also ensure you have the Azure Resources extension installed and have signed in to Azure via Visual Studio Code.
+	AzureCliCredential: Azure CLI not found on path
+	AzurePowerShellCredential: PowerShell is not installed
+	AzureDeveloperCliCredential: Azure Developer CLI could not be found. Please visit https://aka.ms/azure-dev for installation instructions and then,once installed, authenticate to your Azure account using 'azd auth login'.
+	BrokerCredential: InteractiveBrowserBrokerCredential unavailable. The 'azure-identity-broker' package is required to use brokered authentication.
+To mitigate this issue, please refer to the troubleshooting guidelines here at https://aka.ms/azsdk/python/identity/defaultazurecredential/troubleshoot.
+2025-11-17 21:58:03,451 [INFO] Model training complete. Time taken: 97.81 seconds
+2025-11-17 21:58:03,451 [INFO] Evaluating model...
+2025-11-17 21:58:03,663 [INFO] Test Accuracy: 0.8544
+2025-11-17 21:58:03,664 [INFO] Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.89      0.93      0.91     12434
+           1       0.73      0.61      0.66      3846
+
+    accuracy                           0.85     16280
+   macro avg       0.81      0.77      0.79     16280
+weighted avg       0.85      0.85      0.85     16280
+
+2025-11-17 21:58:04,288 [INFO] Script completed in 103.05 seconds.
+2025-11-17 22:38:48,030 [INFO] System info: macOS-26.0-arm64-arm-64bit
+2025-11-17 22:38:48,030 [INFO] Loading training and tests datasets...
+2025-11-17 22:38:48,093 [INFO] Train shape: (32561, 15), Test shape: (16280, 15)
+2025-11-17 22:38:48,105 [INFO] Missing values (train): 0, (tests): 0
+2025-11-17 22:38:48,121 [INFO] Preprocessing and encoding features...
+2025-11-17 22:38:48,178 [INFO] Scaling features...
+2025-11-17 22:38:48,185 [INFO] Feature columns: ['age', 'workclass', 'fnlwgt', 'education', 'education-num', 'marital-status', 'occupation', 'relationship', 'race', 'sex', 'capital-gain', 'capital-loss', 'hours-per-week', 'native-country']
+2025-11-17 22:38:48,186 [INFO] X_train shape: (32561, 14), X_test shape: (16280, 14)
+2025-11-17 22:38:48,931 [INFO] Training RandomForestClassifier...
+2025-11-17 22:38:48,932 [INFO] Model parameters: {'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': 42, 'verbose': 0, 'warm_start': False}
+2025-11-17 22:38:54,205 [INFO] Request URL: 'https://mlflowstorage123456789.blob.core.windows.net/mlflow-artifacts/35/ce2e95a00bfd439abc207f646f449724/artifacts/training_roc_curve.png?timeout=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '34346'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.1 Python/3.11.11 (macOS-26.0-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'd094f406-c3fd-11f0-9074-266f009c5e8b'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-11-17 22:38:54,739 [INFO] Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Mon, 17 Nov 2025 21:38:54 GMT'
+    'ETag': '"0x8DE2621B51C88A4"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '67beae74-401e-0069-200a-589ce9000000'
+    'x-ms-client-request-id': 'd094f406-c3fd-11f0-9074-266f009c5e8b'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Mon, 17 Nov 2025 21:38:53 GMT'
+2025-11-17 22:38:54,739 [INFO] Request URL: 'https://mlflowstorage123456789.blob.core.windows.net/mlflow-artifacts/35/ce2e95a00bfd439abc207f646f449724/artifacts/training_precision_recall_curve.png?timeout=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '32024'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.1 Python/3.11.11 (macOS-26.0-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'd0e68f32-c3fd-11f0-9074-266f009c5e8b'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-11-17 22:38:54,870 [INFO] Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Mon, 17 Nov 2025 21:38:54 GMT'
+    'ETag': '"0x8DE2621B530F7FD"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '67beaf06-401e-0069-250a-589ce9000000'
+    'x-ms-client-request-id': 'd0e68f32-c3fd-11f0-9074-266f009c5e8b'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Mon, 17 Nov 2025 21:38:54 GMT'
+2025-11-17 22:38:54,872 [INFO] Request URL: 'https://mlflowstorage123456789.blob.core.windows.net/mlflow-artifacts/35/ce2e95a00bfd439abc207f646f449724/artifacts/training_confusion_matrix.png?timeout=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '23663'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.1 Python/3.11.11 (macOS-26.0-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'd0fabcc8-c3fd-11f0-9074-266f009c5e8b'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-11-17 22:38:55,428 [INFO] Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Mon, 17 Nov 2025 21:38:55 GMT'
+    'ETag': '"0x8DE2621B54B32E4"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '67beaf83-401e-0069-160a-589ce9000000'
+    'x-ms-client-request-id': 'd0fabcc8-c3fd-11f0-9074-266f009c5e8b'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Mon, 17 Nov 2025 21:38:54 GMT'
+2025-11-17 22:38:55,821 [INFO] Request URL: 'https://mlflowstorage123456789.blob.core.windows.net/mlflow-artifacts/35/ce2e95a00bfd439abc207f646f449724/artifacts/estimator.html?timeout=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '13162'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.1 Python/3.11.11 (macOS-26.0-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'd18b94d2-c3fd-11f0-9074-266f009c5e8b'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-11-17 22:38:56,002 [INFO] Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Mon, 17 Nov 2025 21:38:55 GMT'
+    'ETag': '"0x8DE2621B5D2ECAB"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '67beb16d-401e-0069-4e0a-589ce9000000'
+    'x-ms-client-request-id': 'd18b94d2-c3fd-11f0-9074-266f009c5e8b'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Mon, 17 Nov 2025 21:38:55 GMT'
+2025-11-17 22:38:58,593 [INFO] Request URL: 'https://mlflowstorage123456789.blob.core.windows.net/mlflow-artifacts/35/ce2e95a00bfd439abc207f646f449724/artifacts/model/python_env.yaml?timeout=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '121'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.1 Python/3.11.11 (macOS-26.0-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'd3327a4e-c3fd-11f0-9074-266f009c5e8b'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-11-17 22:38:58,689 [INFO] Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Mon, 17 Nov 2025 21:38:58 GMT'
+    'ETag': '"0x8DE2621B7786FAC"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '67beb768-401e-0069-2a0a-589ce9000000'
+    'x-ms-client-request-id': 'd3327a4e-c3fd-11f0-9074-266f009c5e8b'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Mon, 17 Nov 2025 21:38:57 GMT'
+2025-11-17 22:38:58,690 [INFO] Request URL: 'https://mlflowstorage123456789.blob.core.windows.net/mlflow-artifacts/35/ce2e95a00bfd439abc207f646f449724/artifacts/model/requirements.txt?timeout=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '94'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.1 Python/3.11.11 (macOS-26.0-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'd341639c-c3fd-11f0-9074-266f009c5e8b'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-11-17 22:38:58,787 [INFO] Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Mon, 17 Nov 2025 21:38:58 GMT'
+    'ETag': '"0x8DE2621B78761A0"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '67beb79e-401e-0069-5b0a-589ce9000000'
+    'x-ms-client-request-id': 'd341639c-c3fd-11f0-9074-266f009c5e8b'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Mon, 17 Nov 2025 21:38:57 GMT'
+2025-11-17 22:38:58,788 [INFO] Request URL: 'https://mlflowstorage123456789.blob.core.windows.net/mlflow-artifacts/35/ce2e95a00bfd439abc207f646f449724/artifacts/model/MLmodel?timeout=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '809'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.1 Python/3.11.11 (macOS-26.0-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'd35040ce-c3fd-11f0-9074-266f009c5e8b'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-11-17 22:38:58,883 [INFO] Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Mon, 17 Nov 2025 21:38:58 GMT'
+    'ETag': '"0x8DE2621B7962C82"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '67beb7c7-401e-0069-7f0a-589ce9000000'
+    'x-ms-client-request-id': 'd35040ce-c3fd-11f0-9074-266f009c5e8b'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Mon, 17 Nov 2025 21:38:58 GMT'
+2025-11-17 22:38:58,886 [INFO] Request URL: 'https://mlflowstorage123456789.blob.core.windows.net/mlflow-artifacts/35/ce2e95a00bfd439abc207f646f449724/artifacts/model/model.pkl?comp=REDACTED&blockid=REDACTED&timeout=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '4194304'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.1 Python/3.11.11 (macOS-26.0-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'd35f3caa-c3fd-11f0-9074-266f009c5e8b'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-11-17 22:38:59,646 [INFO] Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '67beb7eb-401e-0069-200a-589ce9000000'
+    'x-ms-client-request-id': 'd35f3caa-c3fd-11f0-9074-266f009c5e8b'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Mon, 17 Nov 2025 21:38:58 GMT'
+2025-11-17 22:38:59,658 [INFO] Request URL: 'https://mlflowstorage123456789.blob.core.windows.net/mlflow-artifacts/35/ce2e95a00bfd439abc207f646f449724/artifacts/model/model.pkl?comp=REDACTED&blockid=REDACTED&timeout=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '4194304'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.1 Python/3.11.11 (macOS-26.0-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'd3d4887a-c3fd-11f0-9074-266f009c5e8b'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-11-17 22:39:00,268 [INFO] Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '67beb991-401e-0069-190a-589ce9000000'
+    'x-ms-client-request-id': 'd3d4887a-c3fd-11f0-9074-266f009c5e8b'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Mon, 17 Nov 2025 21:38:59 GMT'
+2025-11-17 22:39:00,273 [INFO] Request URL: 'https://mlflowstorage123456789.blob.core.windows.net/mlflow-artifacts/35/ce2e95a00bfd439abc207f646f449724/artifacts/model/model.pkl?comp=REDACTED&blockid=REDACTED&timeout=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '4194304'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.1 Python/3.11.11 (macOS-26.0-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'd432cbc4-c3fd-11f0-9074-266f009c5e8b'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-11-17 22:39:00,872 [INFO] Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '67bebac6-401e-0069-290a-589ce9000000'
+    'x-ms-client-request-id': 'd432cbc4-c3fd-11f0-9074-266f009c5e8b'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Mon, 17 Nov 2025 21:39:00 GMT'
+2025-11-17 22:39:00,876 [INFO] Request URL: 'https://mlflowstorage123456789.blob.core.windows.net/mlflow-artifacts/35/ce2e95a00bfd439abc207f646f449724/artifacts/model/model.pkl?comp=REDACTED&blockid=REDACTED&timeout=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '4194304'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.1 Python/3.11.11 (macOS-26.0-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'd48ee54e-c3fd-11f0-9074-266f009c5e8b'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-11-17 22:39:01,345 [INFO] Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '67bebc17-401e-0069-4c0a-589ce9000000'
+    'x-ms-client-request-id': 'd48ee54e-c3fd-11f0-9074-266f009c5e8b'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Mon, 17 Nov 2025 21:39:00 GMT'
+2025-11-17 22:39:01,350 [INFO] Request URL: 'https://mlflowstorage123456789.blob.core.windows.net/mlflow-artifacts/35/ce2e95a00bfd439abc207f646f449724/artifacts/model/model.pkl?comp=REDACTED&blockid=REDACTED&timeout=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '4194304'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.1 Python/3.11.11 (macOS-26.0-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'd4d740dc-c3fd-11f0-9074-266f009c5e8b'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-11-17 22:39:01,895 [INFO] Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '67bebd10-401e-0069-210a-589ce9000000'
+    'x-ms-client-request-id': 'd4d740dc-c3fd-11f0-9074-266f009c5e8b'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Mon, 17 Nov 2025 21:39:01 GMT'
+2025-11-17 22:39:01,901 [INFO] Request URL: 'https://mlflowstorage123456789.blob.core.windows.net/mlflow-artifacts/35/ce2e95a00bfd439abc207f646f449724/artifacts/model/model.pkl?comp=REDACTED&blockid=REDACTED&timeout=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '4194304'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.1 Python/3.11.11 (macOS-26.0-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'd52b3ade-c3fd-11f0-9074-266f009c5e8b'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-11-17 22:39:02,459 [INFO] Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '67bebe17-401e-0069-0b0a-589ce9000000'
+    'x-ms-client-request-id': 'd52b3ade-c3fd-11f0-9074-266f009c5e8b'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Mon, 17 Nov 2025 21:39:01 GMT'
+2025-11-17 22:39:02,462 [INFO] Request URL: 'https://mlflowstorage123456789.blob.core.windows.net/mlflow-artifacts/35/ce2e95a00bfd439abc207f646f449724/artifacts/model/model.pkl?comp=REDACTED&blockid=REDACTED&timeout=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '4194304'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.1 Python/3.11.11 (macOS-26.0-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'd580f8ac-c3fd-11f0-9074-266f009c5e8b'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-11-17 22:39:03,091 [INFO] Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '67bebf53-401e-0069-260a-589ce9000000'
+    'x-ms-client-request-id': 'd580f8ac-c3fd-11f0-9074-266f009c5e8b'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Mon, 17 Nov 2025 21:39:02 GMT'
+2025-11-17 22:39:03,095 [INFO] Request URL: 'https://mlflowstorage123456789.blob.core.windows.net/mlflow-artifacts/35/ce2e95a00bfd439abc207f646f449724/artifacts/model/model.pkl?comp=REDACTED&blockid=REDACTED&timeout=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '4194304'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.1 Python/3.11.11 (macOS-26.0-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'd5e16d68-c3fd-11f0-9074-266f009c5e8b'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-11-17 22:39:03,757 [INFO] Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '67bec094-401e-0069-3f0a-589ce9000000'
+    'x-ms-client-request-id': 'd5e16d68-c3fd-11f0-9074-266f009c5e8b'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Mon, 17 Nov 2025 21:39:02 GMT'
+2025-11-17 22:39:03,762 [INFO] Request URL: 'https://mlflowstorage123456789.blob.core.windows.net/mlflow-artifacts/35/ce2e95a00bfd439abc207f646f449724/artifacts/model/model.pkl?comp=REDACTED&blockid=REDACTED&timeout=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '4194304'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.1 Python/3.11.11 (macOS-26.0-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'd647363e-c3fd-11f0-9074-266f009c5e8b'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-11-17 22:39:04,402 [INFO] Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '67bec1ef-401e-0069-7a0a-589ce9000000'
+    'x-ms-client-request-id': 'd647363e-c3fd-11f0-9074-266f009c5e8b'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Mon, 17 Nov 2025 21:39:03 GMT'
+2025-11-17 22:39:04,404 [INFO] Request URL: 'https://mlflowstorage123456789.blob.core.windows.net/mlflow-artifacts/35/ce2e95a00bfd439abc207f646f449724/artifacts/model/model.pkl?comp=REDACTED&blockid=REDACTED&timeout=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '4194304'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.1 Python/3.11.11 (macOS-26.0-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'd6a93bd6-c3fd-11f0-9074-266f009c5e8b'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-11-17 22:39:05,336 [INFO] Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '67bec395-401e-0069-060a-589ce9000000'
+    'x-ms-client-request-id': 'd6a93bd6-c3fd-11f0-9074-266f009c5e8b'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Mon, 17 Nov 2025 21:39:04 GMT'
+2025-11-17 22:39:05,343 [INFO] Request URL: 'https://mlflowstorage123456789.blob.core.windows.net/mlflow-artifacts/35/ce2e95a00bfd439abc207f646f449724/artifacts/model/model.pkl?comp=REDACTED&blockid=REDACTED&timeout=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '4194304'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.1 Python/3.11.11 (macOS-26.0-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'd7387abc-c3fd-11f0-9074-266f009c5e8b'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-11-17 22:39:06,077 [INFO] Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '67bec5e5-401e-0069-340a-589ce9000000'
+    'x-ms-client-request-id': 'd7387abc-c3fd-11f0-9074-266f009c5e8b'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Mon, 17 Nov 2025 21:39:05 GMT'
+2025-11-17 22:39:06,084 [INFO] Request URL: 'https://mlflowstorage123456789.blob.core.windows.net/mlflow-artifacts/35/ce2e95a00bfd439abc207f646f449724/artifacts/model/model.pkl?comp=REDACTED&blockid=REDACTED&timeout=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '4194304'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.1 Python/3.11.11 (macOS-26.0-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'd7a978fc-c3fd-11f0-9074-266f009c5e8b'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-11-17 22:39:06,814 [INFO] Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '67bec7d7-401e-0069-7b0a-589ce9000000'
+    'x-ms-client-request-id': 'd7a978fc-c3fd-11f0-9074-266f009c5e8b'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Mon, 17 Nov 2025 21:39:05 GMT'
+2025-11-17 22:39:06,822 [INFO] Request URL: 'https://mlflowstorage123456789.blob.core.windows.net/mlflow-artifacts/35/ce2e95a00bfd439abc207f646f449724/artifacts/model/model.pkl?comp=REDACTED&blockid=REDACTED&timeout=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '4194304'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.1 Python/3.11.11 (macOS-26.0-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'd81a04fa-c3fd-11f0-9074-266f009c5e8b'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-11-17 22:39:07,677 [INFO] Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '67bec9c8-401e-0069-4a0a-589ce9000000'
+    'x-ms-client-request-id': 'd81a04fa-c3fd-11f0-9074-266f009c5e8b'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Mon, 17 Nov 2025 21:39:06 GMT'
+2025-11-17 22:39:07,680 [INFO] Request URL: 'https://mlflowstorage123456789.blob.core.windows.net/mlflow-artifacts/35/ce2e95a00bfd439abc207f646f449724/artifacts/model/model.pkl?comp=REDACTED&blockid=REDACTED&timeout=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '4194304'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.1 Python/3.11.11 (macOS-26.0-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'd89d2cf4-c3fd-11f0-9074-266f009c5e8b'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-11-17 22:39:08,387 [INFO] Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '67becb98-401e-0069-6e0a-589ce9000000'
+    'x-ms-client-request-id': 'd89d2cf4-c3fd-11f0-9074-266f009c5e8b'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Mon, 17 Nov 2025 21:39:07 GMT'
+2025-11-17 22:39:08,394 [INFO] Request URL: 'https://mlflowstorage123456789.blob.core.windows.net/mlflow-artifacts/35/ce2e95a00bfd439abc207f646f449724/artifacts/model/model.pkl?comp=REDACTED&blockid=REDACTED&timeout=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '4194304'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.1 Python/3.11.11 (macOS-26.0-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'd90a0040-c3fd-11f0-9074-266f009c5e8b'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-11-17 22:39:09,452 [INFO] Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '67becceb-401e-0069-200a-589ce9000000'
+    'x-ms-client-request-id': 'd90a0040-c3fd-11f0-9074-266f009c5e8b'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Mon, 17 Nov 2025 21:39:08 GMT'
+2025-11-17 22:39:09,454 [INFO] Request URL: 'https://mlflowstorage123456789.blob.core.windows.net/mlflow-artifacts/35/ce2e95a00bfd439abc207f646f449724/artifacts/model/model.pkl?comp=REDACTED&blockid=REDACTED&timeout=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '4194304'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.1 Python/3.11.11 (macOS-26.0-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'd9abcb8c-c3fd-11f0-9074-266f009c5e8b'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-11-17 22:39:10,325 [INFO] Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '67beced6-401e-0069-4d0a-589ce9000000'
+    'x-ms-client-request-id': 'd9abcb8c-c3fd-11f0-9074-266f009c5e8b'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Mon, 17 Nov 2025 21:39:09 GMT'
+2025-11-17 22:39:10,333 [INFO] Request URL: 'https://mlflowstorage123456789.blob.core.windows.net/mlflow-artifacts/35/ce2e95a00bfd439abc207f646f449724/artifacts/model/model.pkl?comp=REDACTED&blockid=REDACTED&timeout=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '4194304'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.1 Python/3.11.11 (macOS-26.0-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'da31d22c-c3fd-11f0-9074-266f009c5e8b'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-11-17 22:39:11,235 [INFO] Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '67bed0c0-401e-0069-800a-589ce9000000'
+    'x-ms-client-request-id': 'da31d22c-c3fd-11f0-9074-266f009c5e8b'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Mon, 17 Nov 2025 21:39:10 GMT'
+2025-11-17 22:39:11,241 [INFO] Request URL: 'https://mlflowstorage123456789.blob.core.windows.net/mlflow-artifacts/35/ce2e95a00bfd439abc207f646f449724/artifacts/model/model.pkl?comp=REDACTED&blockid=REDACTED&timeout=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '4194304'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.1 Python/3.11.11 (macOS-26.0-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'dabc6842-c3fd-11f0-9074-266f009c5e8b'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-11-17 22:39:12,048 [INFO] Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '67bed290-401e-0069-080a-589ce9000000'
+    'x-ms-client-request-id': 'dabc6842-c3fd-11f0-9074-266f009c5e8b'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Mon, 17 Nov 2025 21:39:11 GMT'
+2025-11-17 22:39:12,051 [INFO] Request URL: 'https://mlflowstorage123456789.blob.core.windows.net/mlflow-artifacts/35/ce2e95a00bfd439abc207f646f449724/artifacts/model/model.pkl?comp=REDACTED&blockid=REDACTED&timeout=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '692054'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.1 Python/3.11.11 (macOS-26.0-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'db38101e-c3fd-11f0-9074-266f009c5e8b'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-11-17 22:39:12,272 [INFO] Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '67bed461-401e-0069-2c0a-589ce9000000'
+    'x-ms-client-request-id': 'db38101e-c3fd-11f0-9074-266f009c5e8b'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Mon, 17 Nov 2025 21:39:11 GMT'
+2025-11-17 22:39:12,278 [INFO] Request URL: 'https://mlflowstorage123456789.blob.core.windows.net/mlflow-artifacts/35/ce2e95a00bfd439abc207f646f449724/artifacts/model/model.pkl?comp=REDACTED&timeout=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '1601'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/xml'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.1 Python/3.11.11 (macOS-26.0-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'db5aa2d2-c3fd-11f0-9074-266f009c5e8b'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-11-17 22:39:12,378 [INFO] Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Last-Modified': 'Mon, 17 Nov 2025 21:39:12 GMT'
+    'ETag': '"0x8DE2621BFA0EEAE"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '67bed4e8-401e-0069-280a-589ce9000000'
+    'x-ms-client-request-id': 'db5aa2d2-c3fd-11f0-9074-266f009c5e8b'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Mon, 17 Nov 2025 21:39:11 GMT'
+2025-11-17 22:39:12,381 [INFO] Request URL: 'https://mlflowstorage123456789.blob.core.windows.net/mlflow-artifacts/35/ce2e95a00bfd439abc207f646f449724/artifacts/model/conda.yaml?timeout=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '210'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.1 Python/3.11.11 (macOS-26.0-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'db6a56e6-c3fd-11f0-9074-266f009c5e8b'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-11-17 22:39:12,480 [INFO] Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Mon, 17 Nov 2025 21:39:12 GMT'
+    'ETag': '"0x8DE2621BFB0A3DB"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '67bed51f-401e-0069-570a-589ce9000000'
+    'x-ms-client-request-id': 'db6a56e6-c3fd-11f0-9074-266f009c5e8b'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Mon, 17 Nov 2025 21:39:11 GMT'
+2025-11-17 22:39:13,385 [INFO] Model training complete. Time taken: 24.45 seconds
+2025-11-17 22:39:13,386 [INFO] Evaluating model...
+2025-11-17 22:39:14,034 [INFO] Test Accuracy: 0.8544
+2025-11-17 22:39:14,034 [INFO] Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.89      0.93      0.91     12434
+           1       0.73      0.61      0.66      3846
+
+    accuracy                           0.85     16280
+   macro avg       0.81      0.77      0.79     16280
+weighted avg       0.85      0.85      0.85     16280
+
+2025-11-17 22:39:14,708 [INFO] Script completed in 26.71 seconds.
