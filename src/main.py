@@ -9,6 +9,7 @@ from datetime import datetime
 from data_loader import load_data, preprocess_data
 from evaluate import evaluate
 from model import train_model
+import os
 
 # Configurar logging (consola + archivo)
 logging.basicConfig(
@@ -21,14 +22,7 @@ logging.basicConfig(
 )
 logger=logging.getLogger("adult-income")
 
-run_name = f"run-{datetime.now().strftime('%Y%m%d-%H%M%S')}"
-
-# MLflow config
-MLFLOW_URI = "http://mlflow-9675.eastus.azurecontainer.io:5000/"
-EXPERIMENT_NAME = "adult-income-ane-martinez"
-
-mlflow.set_tracking_uri(MLFLOW_URI)
-mlflow.set_experiment(EXPERIMENT_NAME)
+run_name = os.getenv("RUN_NAME", "no_name_found")
 
 # Paths
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
@@ -37,6 +31,9 @@ MODEL_DIR = PROJECT_ROOT / "models"
 MODEL_DIR.mkdir(exist_ok=True)
 
 def main():
+    # MLflow config
+    mlflow.set_tracking_uri(os.getenv("MLFLOW_URL", "no_url_found"))
+    mlflow.set_experiment(os.getenv("EXPERIMENT_NAME", "no_experiment_name_found"))
     script_start = time.time()
     logger.info(f"System info: {platform.platform()}")
 
